@@ -12,7 +12,9 @@
 {
     IBOutlet UITableView *table;
     
-    NSArray *fetchedObjects;
+    NSMutableArray *fetchedObjects;
 }
 
+@property (nonatomic, retain) UITableView *table;
+- (void)didPressAddButton;
 @end

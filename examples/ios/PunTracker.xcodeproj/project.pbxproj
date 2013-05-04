@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D15125B17354A1D00E7998F /* NewPunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D15125917354A1D00E7998F /* NewPunViewController.m */; };
+		4D15125C17354A1D00E7998F /* NewPunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D15125917354A1D00E7998F /* NewPunViewController.m */; };
+		4D15125D17354A1D00E7998F /* NewPunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D15125A17354A1D00E7998F /* NewPunViewController.xib */; };
+		4D15125E17354A1D00E7998F /* NewPunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D15125A17354A1D00E7998F /* NewPunViewController.xib */; };
 		4DA8BAA71732CE0C008D1057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA8BAA61732CE0C008D1057 /* UIKit.framework */; };
 		4DA8BAA91732CE0C008D1057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA8BAA81732CE0C008D1057 /* Foundation.framework */; };
 		4DA8BAAB1732CE0C008D1057 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA8BAAA1732CE0C008D1057 /* CoreGraphics.framework */; };
@@ -41,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D15125817354A1D00E7998F /* NewPunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewPunViewController.h; path = Controllers/NewPunViewController.h; sourceTree = "<group>"; };
+		4D15125917354A1D00E7998F /* NewPunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewPunViewController.m; path = Controllers/NewPunViewController.m; sourceTree = "<group>"; };
+		4D15125A17354A1D00E7998F /* NewPunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewPunViewController.xib; path = Controllers/NewPunViewController.xib; sourceTree = "<group>"; };
 		4DA8BAA31732CE0C008D1057 /* PunTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA8BAA61732CE0C008D1057 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4DA8BAA81732CE0C008D1057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +140,9 @@
 				4DA8BAE21732CEB1008D1057 /* PunViewController.m */,
 				4DA8BAE31732CEB1008D1057 /* PunViewController.xib */,
 				4DA8BAC01732CE0C008D1057 /* PunTracker.xcdatamodeld */,
+				4D15125817354A1D00E7998F /* NewPunViewController.h */,
+				4D15125917354A1D00E7998F /* NewPunViewController.m */,
+				4D15125A17354A1D00E7998F /* NewPunViewController.xib */,
 				4DA8BAAF1732CE0C008D1057 /* Supporting Files */,
 			);
 			path = PunTracker;
@@ -247,6 +257,7 @@
 				4DA8BABD1732CE0C008D1057 /* Default@2x.png in Resources */,
 				4DA8BABF1732CE0C008D1057 /* Default-568h@2x.png in Resources */,
 				4DA8BAE61732CEB1008D1057 /* PunViewController.xib in Resources */,
+				4D15125D17354A1D00E7998F /* NewPunViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +267,7 @@
 			files = (
 				4DA8BAD51732CE0D008D1057 /* InfoPlist.strings in Resources */,
 				4DA8BAE71732CEB1008D1057 /* PunViewController.xib in Resources */,
+				4D15125E17354A1D00E7998F /* NewPunViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				4DA8BAB91732CE0C008D1057 /* AppDelegate.m in Sources */,
 				4DA8BAC21732CE0C008D1057 /* PunTracker.xcdatamodeld in Sources */,
 				4DA8BAE41732CEB1008D1057 /* PunViewController.m in Sources */,
+				4D15125B17354A1D00E7998F /* NewPunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +308,7 @@
 			files = (
 				4DA8BAD81732CE0D008D1057 /* PunTrackerTests.m in Sources */,
 				4DA8BAE51732CEB1008D1057 /* PunViewController.m in Sources */,
+				4D15125C17354A1D00E7998F /* NewPunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +473,7 @@
 				4DA8BADD1732CE0D008D1057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DA8BADE1732CE0D008D1057 /* Build configuration list for PBXNativeTarget "PunTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +482,7 @@
 				4DA8BAE01732CE0D008D1057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
