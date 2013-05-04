@@ -55,6 +55,9 @@ Current examples
   <tr>
     <td>Ruby</td><td>Rails3</td><td>SQLite</td>
   </tr>
+  <tr>
+    <td>Objective-C</td><td>iOS</td><td>Core Data</td>
+  </tr>
 </table>
 
 Bugs
